@@ -1,0 +1,74 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(200, 220, 180, 0.3); /* Softer, dimmed light green with transparency */
+}
+
+.login-box {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(100, 160, 200, 0.3) 100%); /* Dimmed gradient with transparency */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    width: 320px;
+    color: black; /* Font color changed to black */
+    font-family: 'Times New Roman', serif; /* Font changed to Times New Roman */
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: black; /* Font color changed to black */
+    text-align: center;
+    font-family: 'Times New Roman', serif; /* Font changed to Times New Roman */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: black; /* Font color changed to black */
+    font-weight: bold;
+    font-family: 'Times New Roman', serif; /* Font changed to Times New Roman */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #42a5f5; /* Soft blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #1e88e5; /* Darker blue */
+}
+
+.error-message {
+    color: #ff5252;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: black; /* Font color changed to black */
+    text-align: center;
+    margin-top: 20px;
+}
